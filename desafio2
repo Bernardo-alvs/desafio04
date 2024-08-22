@@ -1,4 +1,7 @@
-real = input('me de um numero em reais: ')
+real = input('Digite quanto dinheiro em real: ') 
+
 real = int(real)
-dol = real/5.48
-print(f'em dolares esse valor seria {dol:.2f}')
+
+dolar = real * 5
+
+print(f'Resultado em dolar: ${dolar:.2f}')
